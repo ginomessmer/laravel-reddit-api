@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeWizz\RedditAPI;
+namespace ginomessmer\RedditAPI;
 
 class RedditRateLimiter
 {

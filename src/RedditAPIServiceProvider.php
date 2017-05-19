@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeWizz\RedditAPI;
+namespace ginomessmer\RedditAPI;
 
 use Illuminate\Support\ServiceProvider;
 

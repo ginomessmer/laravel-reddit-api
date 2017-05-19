@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeWizz\RedditAPI\Exceptions;
+namespace ginomessmer\RedditAPI\Exceptions;
 
 class RedditAuthenticationException extends \Exception
 {

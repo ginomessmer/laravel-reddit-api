@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeWizz\RedditAPI;
+namespace ginomessmer\RedditAPI;
 
-use CodeWizz\RedditAPI\Exceptions\RedditAuthenticationException;
+use ginomessmer\RedditAPI\Exceptions\RedditAuthenticationException;
 
 class RedditOAuth2
 {

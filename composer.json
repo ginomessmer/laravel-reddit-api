@@ -1,20 +1,19 @@
 {
-    "name": "codewizz/laravel-reddit-api",
+    "name": "ginomessmer/laravel-reddit-api",
     "description": "Laravel Reddit API wrapper",
     "keywords": [
-        "codewizz",
         "laravel-reddit-api",
         "laravel",
         "reddit",
         "api"
     ],
-    "homepage": "https://github.com/codewizz/laravel-reddit-api",
+    "homepage": "https://github.com/ginomessmer/laravel-reddit-api",
     "license": "MIT",
     "authors": [
         {
-            "name": "Darius Šilkaitis",
-            "email": "darius@codewizz.com",
-            "homepage": "https://codewizz.com",
+            "name": "Gino Messmer",
+            "email": "g.messmer@ftsoftware.eu",
+            "homepage": "https://ginomessmer.me",
             "role": "Developer"
         }
     ],
@@ -28,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeWizz\\RedditAPI\\": "src"
+            "ginomessmer\\RedditAPI\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CodeWizz\\RedditAPI\\Test\\": "tests"
+            "ginomessmer\\RedditAPI\\Test\\": "tests"
         }
     }
 }

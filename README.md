@@ -29,7 +29,7 @@ You must install this service provider.
 // config/app.php
 'providers' => [
     ...
-    CodeWizz\RedditAPI\RedditAPIServiceProvider::class,
+    ginomessmer\RedditAPI\RedditAPIServiceProvider::class,
     ...
 ];
 ```
@@ -40,7 +40,7 @@ This package also comes with a facade, which provides an easy way to call the th
 // config/app.php
 'aliases' => [
     ...
-    'RedditAPI' => CodeWizz\RedditAPI\RedditAPIFacade::class,
+    'RedditAPI' => ginomessmer\RedditAPI\RedditAPIFacade::class,
     ...
 ];
 ```
@@ -48,7 +48,7 @@ This package also comes with a facade, which provides an easy way to call the th
 You should publish the config file of this package with this command:
 
 ``` bash
-php artisan vendor:publish --provider="CodeWizz\RedditAPI\RedditAPIServiceProvider"
+php artisan vendor:publish --provider="ginomessmer\RedditAPI\RedditAPIServiceProvider"
 ```
 
 The following config file will be published in `config/reddit-api.php`
